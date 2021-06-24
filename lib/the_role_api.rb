@@ -2,6 +2,7 @@ require 'the_role_api/hash'
 require 'the_role_api/config'
 
 require 'multi_json'
+require 'to_slug_param'
 
 module TheRole
   module Api; end
