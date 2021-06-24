@@ -35,7 +35,7 @@ class TheRoleGenerator < Rails::Generators::NamedBase
   end
 
   def cp_models
-    copy_file 'app/models/_templates_/role.rb',
+    copy_file '_templates_/role.rb',
               'app/models/role.rb'
   end
 
